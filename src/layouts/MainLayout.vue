@@ -19,11 +19,9 @@
             </div>
           </q-toolbar-title>
         </q-toolbar>
-        <q-toolbar class="col-2 bg-green-10">
-          <div class="text-center">
-            <q-btn flat round dense icon="search" />
-            <q-btn flat round dense icon="assignment_ind" />
-          </div>
+        <q-toolbar class="flex flex-center col-2 bg-green-10">
+          <q-btn flat round dense icon="search" />
+          <q-btn flat round dense icon="assignment_ind" />
         </q-toolbar>
       </div>
     </q-header>
