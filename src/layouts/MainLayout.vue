@@ -13,15 +13,17 @@
           />
 
           <q-toolbar-title>
-            <div class="flex-center">
+            <div class="text-center">
               <span>Центр семейного здоровья</span><br />
-              <span>Чудосанка</span>
+              <strong>Чудосанка</strong>
             </div>
           </q-toolbar-title>
         </q-toolbar>
         <q-toolbar class="col-2 bg-green-10">
-          <q-btn flat round dense icon="search" />
-          <q-btn flat round dense icon="assignment_ind" />
+          <div class="text-center">
+            <q-btn flat round dense icon="search" />
+            <q-btn flat round dense icon="assignment_ind" />
+          </div>
         </q-toolbar>
       </div>
     </q-header>
