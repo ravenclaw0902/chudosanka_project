@@ -45,6 +45,7 @@
     </q-drawer>
 
     <q-page-container>
+      <MainCarousel />
       <router-view />
     </q-page-container>
   </q-layout>
@@ -52,12 +53,14 @@
 
 <script>
 import EssentialLink from 'components/EssentialLink.vue'
+import MainCarousel from 'components/MainCarousel.vue'
 
 export default {
   name: 'MainLayout',
 
   components: {
-    EssentialLink
+    EssentialLink,
+    MainCarousel
   },
 
   data() {
