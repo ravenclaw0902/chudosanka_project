@@ -15,24 +15,36 @@
     height="50vh"
     class="bg-green-7 text-white shadow-1 rounded-borders"
   >
-    <q-carousel-slide name="main" class="column no-wrap flex-center">
+    <q-carousel-slide
+      name="main"
+      img-src="slide.back(value)"
+      class="column no-wrap flex-center"
+    >
       <q-icon name="style" size="56px" />
       <div class="q-mt-md text-center">
-        {{ lorem }}
+        {{ caption }}
       </div>
     </q-carousel-slide>
 
-    <q-carousel-slide name="greet" class="column no-wrap flex-center">
+    <q-carousel-slide
+      name="greet"
+      img-src="slide.back(value)"
+      class="column no-wrap flex-center"
+    >
       <q-icon name="style" size="56px" />
       <div class="q-mt-md text-center">
-        {{ lorem }}
+        {{ caption }}
       </div>
     </q-carousel-slide>
 
-    <q-carousel-slide name="about" class="column no-wrap flex-center">
+    <q-carousel-slide
+      name="about"
+      img-src="slide.back(value)"
+      class="column no-wrap flex-center"
+    >
       <q-icon name="style" size="56px" />
       <div class="q-mt-md text-center">
-        {{ lorem }}
+        {{ caption }}
       </div>
     </q-carousel-slide>
   </q-carousel>
@@ -45,17 +57,20 @@ export default {
   data() {
     return {
       slide: 'main',
-      lorem:
+      back: '~/public/imgs/carousel/screen01.png',
+      caption:
         'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
     }
     return {
       slide: 'greet',
-      lorem:
+      back: '~/public/imgs/carousel/screen02.png',
+      caption:
         'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
     }
     return {
       slide: 'about',
-      lorem:
+      back: '~/public/imgs/carousel/screen03.png',
+      caption:
         'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
     }
   }

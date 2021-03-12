@@ -1,9 +1,9 @@
 {
-  "name": "chudosanka",
+  "name": "chudosanka.ru",
   "version": "0.0.1",
   "description": "chudosanka.ru project",
-  "productName": "Quasar App",
-  "author": "add.your.email@here.com",
+  "productName": "chudosanka.ru",
+  "author": "ravenclaw0902@mail.ru",
   "private": true,
   "scripts": {
     "start": "quasar dev",
@@ -11,7 +11,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.8.2",
+    "@quasar/extras": "1.9.19",
     "core-js": "^3.6.5",
     "quasar": "^1.12.7"
   },
