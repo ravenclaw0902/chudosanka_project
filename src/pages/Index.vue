@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <h1>Welcome to home</h1>
+    <h1 class="hidden">Центр семейного здоровья "Чудосанка"</h1>
   </q-page>
 </template>
 

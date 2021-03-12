@@ -1,8 +1,8 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <div class="row no-wrap shadow-1">
-        <q-toolbar class="col-10 bg-green-4">
+    <q-header elevated class="bg-green-6">
+      <div class="row no-wrap">
+        <q-toolbar class="col-10">
           <q-btn
             flat
             dense
@@ -12,14 +12,23 @@
             @click="leftDrawerOpen = !leftDrawerOpen"
           />
 
-          <q-toolbar-title>
-            <div class="text-center">
-              <span>Центр семейного здоровья</span><br />
-              <strong>Чудосанка</strong>
+          <q-toolbar-title class="flex row no-wrap">
+            <div class="col-2 row no-wrap items-center">
+              <a href="/">
+                <img
+                  src="/imgs/logo.svg"
+                  style="margin: 12px; width: 100px; height: 100px"
+                />
+              </a>
+              <div class="col-10 flex-center items-center text-center">
+                <span class="text-center">Центр семейного здоровья</span><br />
+                <span class="text-center">Чудосанка</span>
+              </div>
             </div>
           </q-toolbar-title>
         </q-toolbar>
-        <q-toolbar class="flex flex-center col-2 bg-green-10">
+        <q-toolbar class="col-2">
+          <q-space></q-space>
           <q-btn flat round dense icon="search" />
           <q-btn flat round dense icon="assignment_ind" />
         </q-toolbar>

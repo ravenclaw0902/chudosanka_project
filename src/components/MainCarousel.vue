@@ -12,7 +12,7 @@
     navigation
     padding
     arrows
-    height="50vh"
+    height="45vh"
     class="bg-green-5 text-green-10 shadow-1 rounded-borders"
   >
     <q-carousel-slide

@@ -5,15 +5,17 @@
     <div>
       <div style="font-size: 30vh">404</div>
 
-      <div class="text-h2" style="opacity: 0.4">Oops. Nothing here...</div>
+      <div class="text-h2" style="opacity: 0.4">
+        Такой страницы, похоже, нет...
+      </div>
 
       <q-btn
         class="q-mt-xl"
         color="white"
         text-color="green"
-        unelevated
+        elevated
         to="/"
-        label="Go Home"
+        label="На главную страницу"
         no-caps
       />
     </div>
