@@ -57,6 +57,12 @@
       <MainCarousel />
       <router-view />
     </q-page-container>
+
+    <q-footer class="bg-green-8">
+      <div class="row no-wrap">
+        <a href="/" class="text-white">123</a>
+      </div>
+    </q-footer>
   </q-layout>
 </template>
 
