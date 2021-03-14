@@ -6,7 +6,7 @@
   "author": "ravenclaw0902@mail.ru",
   "private": true,
   "scripts": {
-    "start": "quasar dev",
+    "start": "quasar dev -m pwa",
     "post-update": "yarn upgrade --latest",
     "test": "echo \"No test specified\" && exit 0"
   },
@@ -16,7 +16,8 @@
     "quasar": "^1.12.7"
   },
   "devDependencies": {
-    "@quasar/app": "^2.0.0"
+    "@quasar/app": "^2.0.0",
+    "workbox-webpack-plugin": "^5.0.0"
   },
   "browserslist": [
     "last 10 Chrome versions",
